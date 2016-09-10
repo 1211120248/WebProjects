@@ -1,0 +1,16 @@
+.mk-type{
+    text-align: left;
+    padding-top: 50px;
+    margin-top: 100px;
+    height: 500px;
+    background: #eee;
+}
+
+.mk-type .mk-box p,strong{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.mk-type .mk-box strong{
+    color: red;
+}
