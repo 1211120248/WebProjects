@@ -1,0 +1,67 @@
+.mk-banner{
+    height: 400px;
+    margin-top: 100px;
+}
+
+.mk-banner #mk-carousel{
+    width: 100%;
+    height: 400px;
+}
+
+.mk-banner #mk-carousel .carousel-indicators{
+}
+
+.mk-banner #mk-carousel .item img{
+    width: 100%;
+    height: 400px;
+}
+
+/*.mk-baozhang{*/
+    /*margin:  0 auto;*/
+    /*height: 700px;*/
+    /*text-align: center;*/
+    /*padding-top: 50px;*/
+
+/*}*/
+
+/*.mk-baozhang p{*/
+    /*font-size: 15px;*/
+    /*margin-top: 20px;*/
+
+/*}*/
+
+/*.mk-baozhang .row{*/
+    /*margin-top: 50px;*/
+/*}*/
+
+/*.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img{*/
+    /*width: 180px;*/
+/*}*/
+
+.mk-service{
+    background: #F9F5F5;
+    height: 200px;
+}
+
+.mk-service .item{
+    margin-top: 50px;
+}
+
+.mk-service h2{
+    margin-top: 10px;
+}
+
+
+.mk-service .item .item-left img{
+    width: 80px;
+    float: left;
+}
+
+.mk-service .item .item-right{
+    float: left;
+}
+
+.mk-service .item .item-right h4{
+    margin-top: 20px;
+    color:#17ABFF;
+}

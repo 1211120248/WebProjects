@@ -1,0 +1,27 @@
+*{
+    font-family: "微软雅黑";
+}
+
+.mk-header{
+    position: fixed;
+}
+
+.mk-header nav {
+    height: 100px;
+
+}
+
+.navbar-default{
+    background: #F9F9F9;
+}
+
+.mk-header .navbar-default .navbar-nav>li>a{
+    color:#ffffff;
+    margin-top: 20px;
+}
+
+
+.mk-logo img{
+    width: 180px;
+    margin-top: 15px;
+}

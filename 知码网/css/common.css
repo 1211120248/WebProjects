@@ -1,0 +1,94 @@
+*{
+    font-family: 微软雅黑, Arial, 宋体, Helvetica;
+    font-size: 12px;
+}
+
+
+.hr{
+    width: 100px;
+    height: 3px;
+    background: #199f0c;
+}
+
+.h2{
+    letter-spacing: 3px;
+}
+
+
+.mk-top{
+    background-color: #303030;
+    height: 30px;
+}
+
+.mk-top{
+    color: #fff;
+    line-height: 30px;
+}
+
+.mk-top .mk-top-left{
+    padding-left: 40px;
+    float: left;
+}
+
+.mk-top .mk-top-right{
+    padding-right: 20px;
+    float: right;
+    font-size: 15px;
+}
+
+.mk-top .mk-top-right a{
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+.mk-menu{
+
+}
+
+.mk-menu .navbar-default{
+    height: 70px;
+    background: #f9f9f9;
+}
+
+#logo_img{
+    width: 130px;
+}
+
+.mk-menu .navbar-nav{
+    height: 70px;
+}
+
+.mk-menu .navbar-nav li{
+    height: 70px;
+}
+
+.mk-menu .navbar-nav li a{
+    font-size: 16px;
+    color: #000;
+    display: block;
+    height: 70px;
+    padding: 25px 20px;
+}
+
+.mk-menu .navbar-nav li a:hover{
+    background: #39c1ff;
+}
+
+.mk-footer{
+    height: 120px;
+    background: #222222;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.mk-footer a{
+    color: #fff;
+}
+
+.mk-footer strong{
+    color: red;
+}
+

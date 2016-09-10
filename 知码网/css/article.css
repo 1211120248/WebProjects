@@ -1,0 +1,46 @@
+.mk-articles{
+    margin-top: 120px;
+}
+
+.mk-acricle{
+    margin-top: 20px;
+}
+
+.mk-acricle .mk-date{
+    width: 20%;
+    height: 40px;
+    background: #008ee3;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mk-acricle .mk-box{
+    width: 80%;
+    height: 108px;
+    padding-right: 14px;
+    border-bottom: #ddd solid 1px;
+    overflow: hidden;
+    border-left: #ECF1F5 solid 6px;
+    background: #fff;
+    float: right;
+}
+
+.mk-acricle a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mk-acricle p{
+    margin-top: 20px;
+    color: #999;
+    font-size: 12px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
