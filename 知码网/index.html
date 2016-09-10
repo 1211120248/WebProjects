@@ -25,6 +25,11 @@
     <!--引入wow页面滚动插件-->
     <link rel="stylesheet" href="plugin/wow/css/animate.min.css"/>
     <script src="plugin/wow/js/wow.min.js"></script>
+
+    <!-- 流程插件 -->
+    <link rel="stylesheet" href="plugin/activity/control.css">
+    <script src="plugin/activity/jquery.easing.js"></script>
+    <script src="plugin/activity/stepBar.js"></script>
 </head>
 <body>
 
@@ -47,9 +52,10 @@
                                 <img src="img/logo.jpg" id="logo_img">
                             </div>
                         </div>
-                        <div class="col-md-6 col-md-offset-3">
+                        <div class="col-md-7 col-md-offset-2">
                             <ul class="nav navbar-nav">
                                 <li><a href="#" class="active">网站首页</a></li>
+                                <li><a href="#" class="active">个人中心</a></li>
                                 <li><a href="article.html">知码公告</a></li>
                                 <li><a href="api.html">开发文档</a></li>
                                 <li><a href="">验证码类型</a></li>
@@ -185,7 +191,78 @@
         </div>
     </div>
     <div class="mk-activity">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="hr">我是开发者</h3>
+                    <div id="stepBar" class="ui-stepBar-wrap wow slideInLeft">
+                        <div class="ui-stepBar">
+                            <div class="ui-stepProcess"></div>
+                        </div>
+                        <div class="ui-stepInfo-wrap">
+                            <table class="ui-stepLayout" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">1</a>
+                                        <p class="ui-stepName">注册帐号</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">2</a>
+                                        <p class="ui-stepName">下载实例</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">3</a>
+                                        <p class="ui-stepName">查看类型</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">4</a>
+                                        <p class="ui-stepName">进行测试</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">5</a>
+                                        <p class="ui-stepName">成功接入</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 
+                    <h3 class="hr">我是用户</h3>
+                    <div id="stepBar2" class="ui-stepBar-wrap wow slideInRight">
+                        <div class="ui-stepBar">
+                            <div class="ui-stepProcess"></div>
+                        </div>
+                        <div class="ui-stepInfo-wrap">
+                            <table class="ui-stepLayout" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">1</a>
+                                        <p class="ui-stepName">注册账号</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">2</a>
+                                        <p class="ui-stepName">充值点数</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">3</a>
+                                        <p class="ui-stepName">发码测试</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">4</a>
+                                        <p class="ui-stepName">识别正确</p>
+                                    </td>
+                                    <td class="ui-stepInfo">
+                                        <a class="ui-stepSequence">5</a>
+                                        <p class="ui-stepName">使用成功</p>
+                                    </td>
+
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="mk-footer">
         <a href="#">免责声明</a>| <a href="#">关于我们</a> | <a href="#">知码公告</a> | 客服热线:<strong>18908899084</strong>  | 客服QQ:<strong>1574478863</strong>

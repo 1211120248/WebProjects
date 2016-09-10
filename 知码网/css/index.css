@@ -39,7 +39,7 @@
 /*}*/
 
 .mk-service{
-    background: #F9F5F5;
+    background: #f9f9f9;
     height: 200px;
 }
 
@@ -65,3 +65,14 @@
     margin-top: 20px;
     color:#17ABFF;
 }
+
+.mk-activity{
+    height: 700px;
+    background: #f9f9f9;
+    margin:  0 auto;
+    padding-top: 30px;
+}
+
+
+
+
